@@ -6,7 +6,12 @@ module.exports = {
     title: `cat-blog`,
     siteUrl: `https://www.yourdomain.tld`
   },
-  plugins: ["gatsby-plugin-styled-components", "gatsby-plugin-image", "gatsby-plugin-sitemap", "gatsby-plugin-mdx", "gatsby-plugin-sharp", "gatsby-transformer-sharp", {
+  plugins: ["gatsby-plugin-styled-components",
+            "gatsby-plugin-image",
+            "gatsby-plugin-sharp",
+            "gatsby-plugin-sitemap",
+            "gatsby-plugin-mdx", 
+            "gatsby-transformer-sharp", {
     resolve: 'gatsby-source-filesystem',
     options: {
       "name": "images",
