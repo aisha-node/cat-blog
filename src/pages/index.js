@@ -22,3 +22,5 @@ export const Head = () => <Seo title="Home Page" />
 
 // Step 3: Export your component
 export default IndexPage
+
+// vs code test
