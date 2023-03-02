@@ -7,7 +7,7 @@ import Seo from '../components/seo'
 // Step 2: Define your component
 const IndexPage = () => {
   return (
-      <Layout pageTitle="Topdollar's blog">
+      <Layout pageTitle="Hello there">
         <p>Crazy adventures lie ahead =^_^=</p>
         <StaticImage
         alt="Clifford, a reddish-brown pitbull, posing on a couch and looking stoically at the camera"

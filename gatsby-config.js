@@ -3,7 +3,7 @@
  */
 module.exports = {
   siteMetadata: {
-    title: `topdollar-blog`,
+    title: `Top Dollar's World`,
     siteUrl: `https://www.yourdomain.tld`
   },
   plugins: ["gatsby-plugin-styled-components",

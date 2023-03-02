@@ -20,12 +20,12 @@ const BlogPage = ({ data }) => {
 }
 export const query = graphql`
   query {
-    allFile {
-      nodes {
-        name
+    allFile(filter: {sourceInstanceName: {eq: "blog"}}) {
+        nodes {
+          name
+        }
       }
     }
-  }
   `
 export const Head = () => <Seo title="My Blog Posts" />
 
